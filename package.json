@@ -1,0 +1,26 @@
+{
+  "name": "eslint-config-helioslabs",
+  "version": "0.0.0",
+  "description": "ESLint rules used by Helios Labs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helioslabs/eslint-config-helioslabs.git"
+  },
+  "author": "Ben Youngblood <ben@helioslabs.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/helioslabs/eslint-config-helioslabs/issues"
+  },
+  "homepage": "https://github.com/helioslabs/eslint-config-helioslabs#readme",
+  "peerDependencies": {
+    "babel-eslint": "^4.1.0",
+    "eslint-plugin-cah": "^0.2.0",
+    "eslint-plugin-react": "^3.4.0"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
