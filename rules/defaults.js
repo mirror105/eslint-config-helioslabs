@@ -160,7 +160,6 @@ module.exports = {
      }],
 
     // eslint-plugin-cah
-    "cah/no-const-reassign": [ 2 ],
     "cah/no-undef-promise": [ 2 ],
   }
 }
