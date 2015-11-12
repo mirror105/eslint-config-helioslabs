@@ -90,7 +90,7 @@ module.exports = {
     "no-use-before-define": [ 2, "nofunc" ],
 
     // node/commonjs environment
-    "callback-return": [ 2, [ "callback", "cb", "next", "done", "reply" ] ],
+    "callback-return": [ 2, [ "callback", "cb", "next", "done" ] ],
     "handle-callback-err": [ 1 ],
     "no-mixed-requires": [ 2 ],
     "no-new-require": [ 2 ],
