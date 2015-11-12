@@ -29,7 +29,6 @@ module.exports = {
     "no-dupe-class-members": [ 2 ],
     "no-this-before-super": [ 2 ],
     "no-var": [ 2 ],
-    "prefer-template": [ 1 ],
 
     // eslint-plugin-cah
     "cah/no-undef-promise": [ 2 ]
