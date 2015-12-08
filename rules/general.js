@@ -50,7 +50,7 @@ module.exports = {
     "no-invalid-this": [ 2 ],
     "no-lone-blocks": [ 1 ],
     "no-loop-func": [ 2 ],
-    "no-magic-numbers": [ 1 ],
+    "no-magic-numbers": [ 1, { ignore : [ -1, 0, 1, 2 ] } ],
     "no-multi-spaces": [ 2 ],
     "no-multi-str": [ 2 ],
     "no-native-reassign": [ 2 ],
