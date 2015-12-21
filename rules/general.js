@@ -50,7 +50,6 @@ module.exports = {
     "no-invalid-this": [ 2 ],
     "no-lone-blocks": [ 1 ],
     "no-loop-func": [ 2 ],
-    "no-magic-numbers": [ 1, { ignore : [ -1, 0, 1, 2 ] } ],
     "no-multi-spaces": [ 2 ],
     "no-multi-str": [ 2 ],
     "no-native-reassign": [ 2 ],
@@ -85,7 +84,6 @@ module.exports = {
     "no-shadow-restricted-names": [ 2 ],
     "no-undef-init": [ 2 ],
     "no-undef": [ 2 ],
-    "no-undefined": [ 1 ],
     "no-unused-vars": [ 2, {"args": "none"} ],
     "no-use-before-define": [ 2, "nofunc" ],
 
