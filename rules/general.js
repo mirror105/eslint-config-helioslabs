@@ -29,6 +29,7 @@ module.exports = {
     "valid-typeof": [ 2 ],
 
     // best practices
+    "array-callback-return": [ 1 ],
     "curly": [ 2 ],
     "dot-location": [ 2, "property" ],
     "dot-notation": [ 2, { "allowKeywords": true } ],
@@ -38,7 +39,6 @@ module.exports = {
     "no-alert": [ 2 ],
     "no-caller": [ 2 ],
     "no-else-return": [ 2 ],
-    "no-empty-label": [ 1 ],
     "no-empty-pattern": [ 2 ],
     "no-eq-null": [ 2 ],
     "no-extend-native": [ 2 ],
@@ -46,8 +46,10 @@ module.exports = {
     "no-fallthrough": [ 2 ],
     "no-floating-decimal": [ 2 ],
     "no-implicit-coercion": [ 2 ],
+    "no-implicit-globals": [ 2 ],
     "no-implied-eval": [ 2 ],
     "no-invalid-this": [ 2 ],
+    "no-labels": [ 1, { "allowLoop" : true, "allowSwitch": true } ],
     "no-lone-blocks": [ 1 ],
     "no-loop-func": [ 2 ],
     "no-multi-spaces": [ 2 ],
@@ -97,25 +99,25 @@ module.exports = {
     "no-restricted-modules": [ 2 ],
 
     // style
-    "indent": [ 2, TAB_WIDTH, { "SwitchCase" : 1 } ],
     "brace-style": [ 2, "1tbs" ],
     "camelcase": [ 2, { "properties" : "never" } ],
     "comma-spacing": [ 2, { "before": false, "after": true } ],
     "eol-last": [ 2 ],
+    "id-blacklist" : [ 2, "data" ], // <3 @jwdotjs
+    "indent": [ 2, TAB_WIDTH, { "SwitchCase" : 1 } ],
     "key-spacing": [ 2, { "beforeColon": true, "afterColon": true } ],
     "max-nested-callbacks": [ 1, 3 ],
     "new-cap": [ 1, { "capIsNew" : false } ],
+    "newline-per-chained-call": [ 2, { "ignoreChainWithDepth" : 3 } ],
     "no-lonely-if": [ 2 ],
     "no-multiple-empty-lines": [ 2 ],
     "no-nested-ternary": [ 2 ],
     "quote-props": [ 2, "consistent-as-needed" ],
     "quotes": [ 2, "single", "avoid-escape" ],
     "semi": [ 2, "always" ],
-    "space-after-keywords": [ 2, "always" ],
     "space-before-blocks": [ 2, "always" ],
     "space-before-function-paren": [ 2, "never" ],
     "space-infix-ops": [ 2 ],
-    "space-return-throw-case": [ 2 ],
     "spaced-comment": [ 2 ],
 
     // legacy

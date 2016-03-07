@@ -17,9 +17,10 @@
   },
   "homepage": "https://github.com/helioslabs/eslint-config-helioslabs#readme",
   "peerDependencies": {
-    "babel-eslint": "^4.1.0",
+    "babel-eslint": "^6.0.0-beta.1",
+    "eslint": "^2.0.0",
     "eslint-plugin-cah": "^0.2.0",
-    "eslint-plugin-react": "^3.6.0"
+    "eslint-plugin-react": "^4.2.0"
   },
   "dependencies": {},
   "devDependencies": {}

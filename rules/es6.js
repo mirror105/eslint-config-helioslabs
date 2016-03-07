@@ -23,12 +23,13 @@ module.exports = {
     // "arrow-parens": [ 2 ], // @todo this gets confused when doing `async (param) => {}`
     "arrow-spacing": [ 2 ],
     "constructor-super": [ 2 ],
-    "no-arrow-condition": [ 2 ],
     "no-class-assign": [ 2 ],
+    "no-confusing-arrow": [ 2 ],
     "no-const-assign": [ 2 ],
     "no-dupe-class-members": [ 2 ],
     "no-this-before-super": [ 2 ],
     "no-var": [ 2 ],
+    "no-new-symbol": [ 2 ],
 
     // eslint-plugin-cah
     "cah/no-undef-promise": [ 2 ]

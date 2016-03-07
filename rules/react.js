@@ -3,7 +3,7 @@ const TAB_WIDTH = 2;
 module.exports = {
   "rules": {
     // eslint-plugin-react
-    "react/display-name": [ 2, { "acceptTranspilerName": true } ],
+    "react/display-name": [ 2 ],
     "react/jsx-closing-bracket-location": [ 1, "tag-aligned" ],
     "react/jsx-curly-spacing": [ 2, "never", { "allowMultiline": true } ],
     "react/jsx-indent-props": [ 2, TAB_WIDTH ],
@@ -23,6 +23,7 @@ module.exports = {
     "react/wrap-multilines": [ 2 ],
     "react/sort-comp": [ 1, {
       "order": [
+        "static-methods",
         "displayName",
         "statics",
         "contexts",
