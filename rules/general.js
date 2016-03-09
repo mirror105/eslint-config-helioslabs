@@ -108,7 +108,6 @@ module.exports = {
     "key-spacing": [ 2, { "beforeColon": true, "afterColon": true } ],
     "max-nested-callbacks": [ 1, 3 ],
     "new-cap": [ 1, { "capIsNew" : false } ],
-    "newline-per-chained-call": [ 2, { "ignoreChainWithDepth" : 3 } ],
     "no-lonely-if": [ 2 ],
     "no-multiple-empty-lines": [ 2 ],
     "no-nested-ternary": [ 2 ],
